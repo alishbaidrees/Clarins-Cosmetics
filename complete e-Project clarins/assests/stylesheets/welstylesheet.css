@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+body{background-color: black !important;overflow: hidden;}
+*{margin: 0;font-family: 'Akaya Telivigala', cursive !important;
+padding: 0;box-sizing: border-box;}
+header{position: absolute;top: 0px;left: 0px;display: flex;align-items: center;justify-content: space-between;padding: 20px 50px;z-index: 1000;}
+.banner{position: relative;height: 100vh;padding: 0 100px;display: flex;justify-content: flex-start;align-items: center;}
+.banner .txtbox{position: relative;max-width: 550px;z-index: 2;}
+.category h1{font-size: 400%;font-family: 'Acme', sans-serif;color:white;text-align: center;padding-bottom: 6%;transition: 1s;}
+.category {width: 80px;height: 80px;background: #8F6630 ;opacity: 0.9; margin: 4px 0px;padding: 2%;border-radius: 50%;}
+.category-list{display: flex;align-items: flex-start;justify-content: left;}
+.category:hover {border-radius: 30%;background-color: #bb0a1e;padding-bottom: 3%;transition: 1s;}
+.category h1:hover {color: goldenrod;transition: 1s;}
+h2:hover{color: white;text-shadow: 6px 4px #8F6630;padding-bottom: 1%;transition: 1s;}
+h2{padding-top: 2%;font-size: 50px;color: white;text-shadow: 2px 2px #8F6630;}
+.banner .txtbox a{position: relative;display: inline-block;background-color:#8F6630 ;color: white;padding: 15px 25px;text-decoration: none;text-transform: uppercase;letter-spacing: 2px;font-weight: 800;transition: 1s;border-radius: 10%;}
+.banner .txtbox a:hover{background-color: #bb0a1e;color: white;font-family:'Acme', sans-serif;padding: 20px 30px ;transition: 1s;}
+.banner .vdobx{position: relative;margin-left: 40px;width: 100%;height: 400px;z-index: 1;}
+.sci{position: absolute;bottom: 20px;letter-spacing: 100px;display: flex;justify-content: center;align-items: center;}
+.sci li{list-style: none;}
+.sci li a{display: inline-block;margin-left: 15px;}
+.banner video{position: absolute;top: 0;left: 0; object-fit: cover;opacity:0.7;pointer-events: none;background-size:100% 100%; width: 100%; background-repeat: no-repeat;}
+
+.bann video{position: absolute;top: 0;left: 0; object-fit: cover;opacity:0.7;pointer-events: none;background-size:100% 100%; width: 100%; background-repeat: no-repeat;}
+
+/*.banner::before{content: '';position: absolute;right: 0;top: 0;width: 400px;height: 100%;background: rgba(0,0,0,0.5);}*/
+@media (max-width: 991px) 
+{
+    header{padding: 20px 50px;}
+.banner{padding:150px 50px 0  ;flex-direction: column;}
+/*.banner::before{display: none;}*/
+.banner .txtbox{max-width: 100%;}
+.banner .txtbox .category h1{font-size: 2.5em;}
+.banner .vdobx {width: 100%;height: 200px;margin: 40px 0 100px;}
+.banner .sci{left:50px ;}
+
+
+
+
+
+
+
+
+
+}
+    
